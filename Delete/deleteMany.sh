@@ -1,2 +1,2 @@
-//Delete all the doc
+# Delete all the doc
 db.inventory.deleteMany({})
