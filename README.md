@@ -13,13 +13,16 @@ MongoDB provides the following methods to insert documents into a collection:
 
 #### In MongoDB, insert operations target a single collection. All write operations in MongoDB are atomic on the level of a single document.
 
+
 ---
 ## Read Operations
 Read operations retrieve documents from a collection; i.e. query a collection for documents. MongoDB provides the following methods to read documents from a collection:
 
 - <a href="https://github.com/soshubh/MongoDB/blob/main/Read/find.sh"> db.collection.find() </a>
 
-You can specify query filters or criteria that identify the documents to return.
+#### You can specify query filters or criteria that identify the documents to return.
+
+
 ---
 ## Update Operations
 Update operations modify existing documents in a collection. MongoDB provides the following methods to update documents of a collection:
@@ -30,9 +33,11 @@ Update operations modify existing documents in a collection. MongoDB provides th
 
 - <a href="https://github.com/soshubh/MongoDB/blob/main/Update/findOneAndReplace.sh"> db.collection.replaceOne()
 
-In MongoDB, update operations target a single collection. All write operations in MongoDB are atomic on the level of a single document.
+#### In MongoDB, update operations target a single collection. All write operations in MongoDB are atomic on the level of a single document.
 
-You can specify criteria, or filters, that identify the documents to update. These filters use the same syntax as read operations.
+#### You can specify criteria, or filters, that identify the documents to update. These filters use the same syntax as read operations.
+
+  
 ---
 ## Delete Operations
 Delete operations remove documents from a collection. MongoDB provides the following methods to delete documents of a collection:
