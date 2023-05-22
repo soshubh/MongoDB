@@ -19,3 +19,16 @@ Read operations retrieve documents from a collection; i.e. query a collection fo
 - <a href="https://github.com/soshubh/MongoDB/blob/main/Read/find.sh"> db.collection.find() </a>
 
 You can specify query filters or criteria that identify the documents to return.
+
+## Update Operations
+Update operations modify existing documents in a collection. MongoDB provides the following methods to update documents of a collection:
+
+- <a href="https://github.com/soshubh/MongoDB/blob/main/Update/updateOne.sh"> db.collection.updateOne()
+
+- <a href="https://github.com/soshubh/MongoDB/blob/main/Update/updateMany.sh"> db.collection.updateMany()
+
+- <a href="https://github.com/soshubh/MongoDB/blob/main/Read/find.sh"> db.collection.replaceOne()\
+
+In MongoDB, update operations target a single collection. All write operations in MongoDB are atomic on the level of a single document.
+
+You can specify criteria, or filters, that identify the documents to update. These filters use the same syntax as read operations.
