@@ -7,8 +7,8 @@ Create or insert operations add new documents to a collection. If the collection
 
 MongoDB provides the following methods to insert documents into a collection:
 
-db.collection.insertOne() 
+- <a href="#"> db.collection.insertOne()</a>
 
-db.collection.insertMany() 
+- <a href="#"> db.collection.insertMany() </a>
 
 In MongoDB, insert operations target a single collection. All write operations in MongoDB are atomic on the level of a single document.
