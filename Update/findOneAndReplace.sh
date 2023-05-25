@@ -7,6 +7,9 @@ db.scores.insertMany([
 ]);
 
 db.scores.findOneAndReplace(
+
    { "score" : { $lt : 20000 } },
+
    { "team" : "Observant Badgers", "score" : 20000 }
+
 )
