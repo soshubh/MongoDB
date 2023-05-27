@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Docker/Docker_(container_engine)_logo.svg" width="700">
+<img src="MongoDB/MongoDB_Logo.svg" width="700">
 </p>
 
 <br/>
